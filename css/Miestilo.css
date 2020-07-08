@@ -1,0 +1,116 @@
+.body{
+	background: #E0F8F7;
+}
+.cabecera{
+	background: #008080;
+}
+
+/*color del */
+.Pampa{
+	color: #0ff;
+}
+
+.texto{
+	background: white;
+}
+
+.margen{
+	margin: 40px;
+	flood-color: red;
+}
+header nav{
+	width: 100%;
+	max-width: 6000px;
+	margin: 0px;
+	background: #024959; 
+}
+.color_nav{
+	color: #fff;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:black;
+  text-align: center;
+}
+/*para separa del icono y letra*/
+header nav ul li span{
+	margin-right: 7px;
+}
+
+/*para letras del nav*/
+header nav ul li{
+	margin-right: 10px;
+}
+
+
+.menu_bar{
+		display: block;
+		width: 100%
+		background:blue;
+	}
+
+header nav ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid rgba(255,255,255,.3);
+	}
+
+
+
+.CabeceraTexto{
+	background: silver;
+}
+
+.HABILIDADES{
+	margin: 50px;
+}
+
+.julihño{
+	margin: 80px;
+}
+
+.separar{
+	position:absolute;right:-15%;/*posicion de la letra*/
+	margin: 30px;
+}
+
+
+.suscribete{
+	position:absolute;right:15%;/*posicion de la letra*/
+	margin: -38px;
+}
+
+.contraseña{
+	margin: 15px;
+
+}
+
+a:hover { 
+  background-color:#076E78;
+}
+
+	
+.imagen_carrucel:hover {
+	filter: saturate(180%);
+}
+
+
+.whatsapp:hover{
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #ec731e;
+-webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+}
+
+.mision{
+
+}
+
+.vision{
+	
+}

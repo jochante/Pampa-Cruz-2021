@@ -1,0 +1,86 @@
+.titulocarrusel{
+
+	font-size: 40px;
+}
+
+.subtitulocarrusel{
+	color:#000000;
+	font-size: 25px;
+}
+
+.texto{
+	font-size: 22px;
+	color: black;
+}
+.costado{
+	float: left;
+	margin: 20px;
+}
+
+.texto-santarosa-lima{
+	font-size: 22px;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
+
+.img-mojo:hover {
+	filter: saturate(180%);
+}
+
+/*----------- CAJA ----------- */
+.caja { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #FAF9F9; 
+font-size: 21px; 
+font-weight: 400; 
+text-align: center; 
+background: #B25FF3; 
+margin: 0 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #5878ca;
+}
+
+.costado-izquierdo{
+	float:right;
+	margin: 20px;
+}
+
+
+/**imagen hacia la izquierda carnaval**/
+.contenedor-izquierda{
+	margin: 10px;
+	padding: 25px;
+	font-size: 22px;
+	line-height:36px;
+}
+
+.IMAGEN-IZQUIERDA{
+	margin: 15px;
+	width: 320px;
+	height: 340px;
+	float: left;
+	margin-left:20px;
+	margin-bottom: 20px;
+}
+
+/**imagen hacia la derecha carnaval**/
+.contenedor-derecha{
+	padding: 25px;
+	font-size: 22px;
+	line-height:36px;
+}
+
+.IMAGEN-DERECHA{
+	margin: 15px;
+	width: 320px;
+	height: 340px;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+

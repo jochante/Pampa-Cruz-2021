@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width= device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Pampa Cruz</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/pampacruz.ico">
+	<link rel="stylesheet" type="text/css" href="css/Miestilo.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/efectos.css">
+</head>
+    <body class="body">
+	   <header class="bg-secondary sticky-top"> <!-- sticky-top PARA QUE EL NESU SEA ESPONGOSO-->
+        <div class="cabecera ">
+            <nav class="navbar navbar-expand-md navbar-dark ">
+            	<img src=" img/pampacruz.png" width="220" class="img-mojo">
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar"><!--para dar la ubicacion a los menus de navegacion-->
+                    <ul class="navbar-nav "><!--esto es lo que ordena los menus de navegacion-->
+                        <li class="nav-item"><a class="nav-link" href="index.html"><stron class="color_nav ">Inicio </stron><span class=" icon-home2 "></span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="costumbres.html"><stron class="color_nav"> Costumbres </stron><span class="icon-library "></span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="galeria.html"><stron class="color_nav">Galería </stron><span class="icon-droplet"></span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="desarrollado.html"><stron class="color_nav">Desarollado </stron><span class="icon-blog"></span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html"><stron class="color_nav">Contacto </stron><span class="icon-hour-glass"></span></a></li>
+                        <!--<li class="nav-item"><a class="nav-link" href="#"><stron class="color_nav">***ALGO MASSSS** </stron><span class="icon-spoon-knife"></span></a></li>-->
+
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                </div>
+            </nav>
+        </div>
+    </header>
+   
+    <main>
+    	
+        <h3 class="text-center"> <strong class="barra-derecha">Galería de Imágenes</strong></h3>
+
+        <div class="container">
+            <div class="card-columns" id="galeria">
+                <!--
+                <div class="card">
+                    <a href="#" data-toggle="modal" data-target="#exampleModal">
+                         <img src="img/galeria/1.jpg" class="card-img-top">
+                    </a>
+                </div>
+                -->
+                
+                <!-- Modal -->
+                <!--
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <button type="button" class="close mr-3" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <img src="img/galeria/1.jpg" class="img-fluid rounded ">
+                  </div>
+                   -->
+                </div>
+               
+
+
+                <script>
+                    var imagenes = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49];
+                    var galeria = document.getElementById('galeria');
+                    for(imagen of imagenes){
+                        galeria.innerHTML += 
+
+                        `<div class="card">
+                            <a href="#" data-toggle="modal" data-target="#id${imagen}">
+                                <img src="img/galeria/${imagen}.jpg" class="card-img-top">
+                            </a>
+                         </div>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="id${imagen}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <button type="button" class="close mr-3" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <img src="img/galeria/${imagen}.jpg" class="img-fluid rounded ">
+                  </div>
+                </div>
+                `}
+                </script>
+
+
+
+            </div>
+        </div>
+    	
+
+ 
+    </main>
+
+     <footer>
+      <p class="text-center"> Desarrollado por OCHANTE HUAMACCTO, JULIHÑO &copy; 2020</p>
+    </footer>
+
+
+	<script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
